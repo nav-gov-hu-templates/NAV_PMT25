@@ -2,10 +2,10 @@
 <schema xmlns="http://www.w3.org/2001/XMLSchema"
         xmlns:baseForm="https://soap.api.nav.gov.hu/definitions/model/2.0/baseForm/1.0"
         xmlns:meta="https://api.nav.gov.hu/definitions/form_xsd_metaschema/1.0"
-        xmlns:tns="https://soap.api.nav.gov.hu/definitions/model/2.0/NAV_PMT25/0.23"
+        xmlns:tns="https://soap.api.nav.gov.hu/definitions/model/2.0/NAV_PMT25/0.28"
         xmlns:xs="http://www.w3.org/2001/XMLSchema"
         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-        targetNamespace="https://soap.api.nav.gov.hu/definitions/model/2.0/NAV_PMT25/0.23">
+        targetNamespace="https://soap.api.nav.gov.hu/definitions/model/2.0/NAV_PMT25/0.28">
    <import namespace="https://api.nav.gov.hu/definitions/form_xsd_metaschema/1.0"
            schemaLocation="form_xsd_metaschema.xsd"/>
    <import namespace="https://soap.api.nav.gov.hu/definitions/model/2.0/baseForm/1.0"
@@ -12980,8 +12980,8 @@
          <documentation>Bizalmi vagyonkezelő a bejelentő szolgáltató</documentation>
       </annotation>
       <all>
-         <element name="FieldGroup_120760"
-                  type="tns:FieldGroup_NAV_PMT25_120760_Type"
+         <element name="FieldGroup_121014"
+                  type="tns:FieldGroup_NAV_PMT25_121014_Type"
                   minOccurs="0"
                   meta:metaType="FieldGroupMetaType">
             <annotation>
@@ -15613,33 +15613,33 @@
          </element>
       </all>
    </complexType>
-   <complexType name="FieldGroup_NAV_PMT25_120760_Type">
+   <complexType name="FieldGroup_NAV_PMT25_121014_Type">
       <annotation>
          <documentation>Típus</documentation>
       </annotation>
       <all>
-         <element name="Field_0RXXXXB003A"
+         <element name="Field_1E0001B003A"
                   minOccurs="0"
                   type="tns:Enum_NAV_PMT25_0RXXXXB003A"
                   meta:metaType="FieldMetaType">
             <annotation>
-               <documentation>Bizalmi vagyonkezelés formája: (BVK_VAGYONK_FORMA)</documentation>
+               <documentation>Bizalmi vagyonkezelés formája: (BVK_VAGYONK_FORMA_A)</documentation>
             </annotation>
          </element>
-         <element name="Field_0RXXXXB001A"
+         <element name="Field_1E0001B001A"
                   minOccurs="0"
                   type="tns:Enum_NAV_PMT25_0F0001B001A"
                   meta:metaType="FieldMetaType">
             <annotation>
-               <documentation>Típus (BVK_I_TIPUS)</documentation>
+               <documentation>Típus (BVK_I_TIPUS_A)</documentation>
             </annotation>
          </element>
-         <element name="Field_0RXXXXB002A"
+         <element name="Field_1E0001B002A"
                   minOccurs="0"
                   type="tns:Enum_NAV_PMT25_0A0001H001A"
                   meta:metaType="FieldMetaType">
             <annotation>
-               <documentation>A kedvezményezett megegyezik az ügyféllel: (BVK_I_EGYEZES)</documentation>
+               <documentation>A kedvezményezett megegyezik az ügyféllel: (BVK_I_EGYEZES_A)</documentation>
             </annotation>
          </element>
       </all>
@@ -15649,52 +15649,52 @@
          <documentation>Bizalmi vagyonkezelő</documentation>
       </annotation>
       <all>
-         <element name="Field_0UXXXXB004A"
+         <element name="Field_1F0001B004A"
                   minOccurs="0"
                   type="tns:Enum_NAV_PMT25_0RXXXXB003A"
                   meta:metaType="FieldMetaType">
             <annotation>
-               <documentation>Bizalmi vagyonkezelés formája: (BVK_III_VAGYONK_FORMA)</documentation>
+               <documentation>Bizalmi vagyonkezelés formája: (BVK_III_VAGYONK_FORMA_a)</documentation>
             </annotation>
          </element>
-         <element name="Field_0UXXXXB002A"
+         <element name="Field_1F0001B002A"
                   minOccurs="0"
                   type="tns:Enum_NAV_PMT25_0UXXXXB002A"
                   meta:metaType="FieldMetaType">
             <annotation>
-               <documentation>Jelleg: (BVK_III_JELLEG)</documentation>
+               <documentation>Jelleg: (BVK_III_JELLEG_a)</documentation>
             </annotation>
          </element>
-         <element name="Field_0UXXXXB001A"
+         <element name="Field_1F0001B001A"
                   minOccurs="0"
                   type="tns:Enum_NAV_PMT25_0F0001B001A"
                   meta:metaType="FieldMetaType">
             <annotation>
-               <documentation>Vagyonrendelő típusa: (BVK_III_TIPUS)</documentation>
+               <documentation>Vagyonrendelő típusa: (BVK_III_TIPUS_a)</documentation>
             </annotation>
          </element>
-         <element name="Field_0UXXXXB003A"
+         <element name="Field_1F0001B003A"
                   minOccurs="0"
                   type="tns:Enum_NAV_PMT25_0A0001H001A"
                   meta:metaType="FieldMetaType">
             <annotation>
-               <documentation>A vagyonrendelő megegyezik az ügyféllel: (BVK_III_EGYEZES)</documentation>
+               <documentation>A vagyonrendelő megegyezik az ügyféllel: (BVK_III_EGYEZES_a)</documentation>
             </annotation>
          </element>
-         <element name="Field_0UXXXXB005A"
+         <element name="Field_1F0001B005A"
                   minOccurs="0"
                   type="tns:Enum_NAV_PMT25_0F0001B001A"
                   meta:metaType="FieldMetaType">
             <annotation>
-               <documentation>Kedvezményezett típusa: (BVK_III_TIPUS_KEDV)</documentation>
+               <documentation>Kedvezményezett típusa: (BVK_III_TIPUS_KEDV_a)</documentation>
             </annotation>
          </element>
-         <element name="Field_0UXXXXB006A"
+         <element name="Field_1F0001B006A"
                   minOccurs="0"
                   type="tns:Enum_NAV_PMT25_0A0001H001A"
                   meta:metaType="FieldMetaType">
             <annotation>
-               <documentation>A kedvezményezett megegyezik az ügyféllel: (BVK_III_KEDV_EGYEZ)</documentation>
+               <documentation>A kedvezményezett megegyezik az ügyféllel: (BVK_III_KEDV_EGYEZ_a)</documentation>
             </annotation>
          </element>
       </all>
@@ -15718,6 +15718,14 @@
                   meta:metaType="FieldMetaType">
             <annotation>
                <documentation>Ügyfél jellege: (SZUBJ_UGYF_JELLEG)</documentation>
+            </annotation>
+         </element>
+         <element name="Field_1B0001B003A"
+                  minOccurs="0"
+                  type="tns:Enum_NAV_PMT25_0A0001H001A"
+                  meta:metaType="FieldMetaType">
+            <annotation>
+               <documentation>Megkísérelt ügylet: (SZUBJ_UGYF_MEGKIS_UGYLET)</documentation>
             </annotation>
          </element>
       </all>
@@ -23796,6 +23804,30 @@
                <documentation>Honnan érkezett az összeg: (SZUBJ_IND_HONNAN)</documentation>
             </annotation>
          </element>
+         <element name="Field_1CXXXXC026A"
+                  minOccurs="0"
+                  type="tns:Enum_NAV_PMT25_0A0001H001A"
+                  meta:metaType="FieldMetaType">
+            <annotation>
+               <documentation>Lefoglaló határozat a csalással érintett összegre: (SZUBJ_IND_LEFOGLALO)</documentation>
+            </annotation>
+         </element>
+         <element name="Field_1CXXXXC028A"
+                  minOccurs="0"
+                  type="tns:Enum_NAV_PMT25_1CXXXXC028A"
+                  meta:metaType="FieldMetaType">
+            <annotation>
+               <documentation>Csalást megalapozó jelzés: (SZUBJ_IND_CSALAS_MEGALAP)</documentation>
+            </annotation>
+         </element>
+         <element name="Field_1CXXXXC030A"
+                  minOccurs="0"
+                  type="tns:Enum_NAV_PMT25_0A0001H001A"
+                  meta:metaType="FieldMetaType">
+            <annotation>
+               <documentation>Ügyfél hozzájárult az összeg visszautalásához: (SZUBJ_IND_UGYF_HOZZAJ)</documentation>
+            </annotation>
+         </element>
       </all>
    </complexType>
    <complexType name="FieldGroup_NAV_PMT25_120850_Type">
@@ -24105,36 +24137,6 @@
                </restriction>
             </simpleType>
          </element>
-         <element name="Field_1CXXXXC026A"
-                  minOccurs="0"
-                  type="tns:Enum_NAV_PMT25_0A0001H001A"
-                  meta:metaType="FieldMetaType">
-            <annotation>
-               <documentation>Lefoglaló határozat a csalással érintett összegre: (SZUBJ_IND_LEFOGLALO)</documentation>
-            </annotation>
-         </element>
-         <element name="Field_1CXXXXC027A"
-                  minOccurs="0"
-                  meta:metaType="FieldMetaType">
-            <annotation>
-               <documentation>A csalással érintett összegből lefoglalt összeg: (SZUBJ_IND_CSALASSAL)</documentation>
-            </annotation>
-            <simpleType>
-               <restriction base="string">
-                  <minLength value="1"/>
-                  <maxLength value="24"/>
-                  <pattern value="[\P{C}]*[^\s][\P{C}]*"/>
-               </restriction>
-            </simpleType>
-         </element>
-         <element name="Field_1CXXXXC028A"
-                  minOccurs="0"
-                  type="tns:Enum_NAV_PMT25_1CXXXXC028A"
-                  meta:metaType="FieldMetaType">
-            <annotation>
-               <documentation>Csalást megalapozó jelzés: (SZUBJ_IND_CSALAS_MEGALAP)</documentation>
-            </annotation>
-         </element>
          <element name="Field_1CXXXXC029A"
                   minOccurs="0"
                   meta:metaType="FieldMetaType">
@@ -24148,14 +24150,6 @@
                   <pattern value="[\P{C}]*[^\s][\P{C}]*"/>
                </restriction>
             </simpleType>
-         </element>
-         <element name="Field_1CXXXXC030A"
-                  minOccurs="0"
-                  type="tns:Enum_NAV_PMT25_0A0001H001A"
-                  meta:metaType="FieldMetaType">
-            <annotation>
-               <documentation>Ügyfél hozzájárult az összeg visszautalásához: (SZUBJ_IND_UGYF_HOZZAJ)</documentation>
-            </annotation>
          </element>
          <element name="Field_1CXXXXC031A"
                   minOccurs="0"
